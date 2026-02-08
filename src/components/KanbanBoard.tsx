@@ -76,7 +76,8 @@ export function KanbanBoard() {
           <p className="text-gray-600">Drag and drop cards to organize your tasks</p>
         </header>
 
-        <div className="flex flex-col lg:flex-row gap-6">
+       <div className="flex gap-6 overflow-x-auto pb-4">
+
           {initialColumns.map((column) => (
             <KanbanColumn
               key={column.id}
