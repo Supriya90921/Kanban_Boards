@@ -2,6 +2,7 @@ export interface Card {
   id: string;
   title: string;
   columnId: string;
+  columnId: string;
 }
 
 export interface Column {
